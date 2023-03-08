@@ -1,0 +1,286 @@
+ <!--
+
+	 Theme: FLPower Games Retro
+	 Version: 1.0
+	 Author: Felipe D. Silva
+	 E-mail: flpowergamesretro@gmail.com
+	 System: RetroPie v4.8
+
+ -->
+
+ <theme>
+
+ 	 <formatVersion>4</formatVersion>
+
+ 	 	
+ 	 	 <feature supported="carousel">
+
+ 	 	 	 <view name="system">
+
+ 	 	 	 	 <carousel name="systemcarousel">
+ 	 	 	 	 	 <type>horizontal</type>
+ 	 	 	 	 	 <color>00000011</color>
+ 	 	 	 	 	 <logoSize>0.25 0.155</logoSize>
+ 	 	 	 	 	 <logoScale>1.2</logoScale>
+ 	 	 	 	 	 <logoAlignment>center</logoAlignment>
+ 	 	 	 	 	 <maxLogoCount>3</maxLogoCount>
+ 	 	 	 	 </carousel>
+
+ 	 	 	 	 <text name="systemInfo">
+ 	 	 	 	 	 <color>ffffff</color>
+ 	 	 	 	 	 <backgroundColor>00000011</backgroundColor>
+ 	 	 	 	 	 <fontPath>./contents/fonts/Cheerful Dynamite Free.ttf</fontPath>
+ 	 	 	 	 	 <fontSize>0.015</fontSize>
+ 	 	 	 	 </text>
+
+ 	 	 	 </view>
+
+ 	 	 </feature>
+ 	 	 
+ 	 	 <view name="system">
+
+ 	 	 	 <image name="background" extra="true">
+ 	 	 	 	 <pos>0.5 0.5</pos>
+ 	 	 	 	 <origin>0.5 0.5</origin>
+ 	 	 	 	 <size>0 1</size>
+ 	 	 	 	 <path>./image/bg.jpg</path>
+ 	 	 	 </image>
+
+ 	 	 	 <image name="logo">
+ 	 	 	 	 <path>./pers/logo.png</path>
+ 	 	 	 </image>
+
+ 	 	 	 <helpsystem name="help">
+ 	 	 	 	 <textColor>d9dad6</textColor>
+ 	 	 	 	 <iconColor>d9dad6</iconColor>
+ 	 	 	 </helpsystem>
+
+ 	 	 	 <image name="footer" extra="true">
+ 	 	 	 	 <pos>0 0.938</pos>
+ 	 	 	 	 <size>1 0.062</size>
+ 	 	 	 	 <color>819404</color>
+ 	 	 	 	 <path>./../contents/images/signature.png</path>
+ 	 	 	 </image>
+
+ 	 	 	 <image name="lg_retropie" extra="true">
+ 	 	 	 	 <pos>0.085 0.128</pos>
+ 	 	 	 	 <maxSize>0.119 0.167</maxSize>
+ 	 	 	 	 <path>./../contents/images/retropie-person.png</path>
+ 	 	 	 </image>
+
+ 	 	 </view>
+
+ 	 	 <view name="basic">
+
+ 	 	 	 <image name="background">
+ 	 	 	 	 <pos>0.5 0.5</pos>
+ 	 	 	 	 <origin>0.5 0.5</origin>
+ 	 	 	 	 <size>0 1</size>
+ 	 	 	 	 <path>./../contents/images/menu_simple.jpg</path>
+ 	 	 	 </image>
+
+ 	 	 	 <image name="logo">
+ 	 	 	 	 <pos>0.5 0.086</pos>
+ 	 	 	 	 <maxSize>0.119 0.067</maxSize>
+ 	 	 	 	 <path>./pers/logo.png</path>
+ 	 	 	 </image>
+
+ 	 	 	 <helpsystem name="help">
+ 	 	 	 	 <textColor>003300</textColor>
+ 	 	 	 	 <iconColor>003300</iconColor>
+ 	 	 	 	 <fontPath>./../contents/fonts/Timeless Series.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.03</fontSize>
+ 	 	 	 </helpsystem>
+
+ 	 	 	 <image name="footer" extra="true">
+ 	 	 	 	 <pos>0 0.938</pos>
+ 	 	 	 	 <size>1 0.062</size>
+ 	 	 	 	 <color>819404</color>
+ 	 	 	 	 <path>./../contents/images/signature.png</path>
+ 	 	 	 </image>
+
+ 	 	 	 <textlist name="gamelist">
+ 	 	 	 	 <pos>0.29 0.279</pos>
+ 	 	 	 	 <size>0.407 0.576</size>
+ 	 	 	 	 <selectorColor>343434</selectorColor>
+ 	 	 	 	 <selectorHeight>0.033</selectorHeight>
+ 	 	 	 	 <selectedColor>ffffff</selectedColor>
+ 	 	 	 	 <primaryColor>ffffff</primaryColor>
+ 	 	 	 	 <secondaryColor>ffffff</secondaryColor>
+ 	 	 	 	 <fontPath>./../contents/fonts/Monapella.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.03</fontSize>
+ 	 	 	 	 <scrollSound>./../contents/audios/scroll.wav</scrollSound>
+ 	 	 	 	 <alignment>center</alignment>
+ 	 	 	 	 <forceUppercase>1</forceUppercase>
+ 	 	 	 </textlist>
+
+ 	 	 </view>
+
+ 	 	 <view name="detailed, video">
+
+ 	 	 	 <image name="background">
+ 	 	 	 	 <pos>0.5 0.5</pos>
+ 	 	 	 	 <origin>0.5 0.5</origin>
+ 	 	 	 	 <size>0 1</size>
+ 	 	 	 	 <path>./../contents/images/menu_setup.jpg</path>
+ 	 	 	 </image>
+
+ 	 	 	 <image name="logo">
+ 	 	 	 	 <pos>0.5 0.086</pos>
+ 	 	 	 	 <maxSize>0.119 0.067</maxSize>
+ 	 	 	 	 <path>./pers/logo.png</path>
+ 	 	 	 </image>
+
+ 	 	 	 <helpsystem name="help">
+ 	 	 	 	 <textColor>003300</textColor>
+ 	 	 	 	 <iconColor>003300</iconColor>
+ 	 	 	 	 <fontPath>./../contents/fonts/Timeless Series.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.03</fontSize>
+ 	 	 	 </helpsystem>
+
+ 	 	 	 <image name="footer" extra="true">
+ 	 	 	 	 <pos>0 0.938</pos>
+ 	 	 	 	 <size>1 0.062</size>
+ 	 	 	 	 <color>819404</color>
+ 	 	 	 	 <path>./../contents/images/signature.png</path>
+ 	 	 	 </image>
+
+ 	 	 	 <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+ 	 	 	 	 <color>ffffff</color>
+ 	 	 	 	 <fontPath>./../contents/fonts/PhoenixAyash.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.02</fontSize>
+ 	 	 	 	 <alignment>left</alignment>
+ 	 	 	 	 <forceUppercase>1</forceUppercase>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_name">
+ 	 	 	 	 <color>ffffff</color>
+ 	 	 	 	 <fontPath>./../contents/fonts/PhoenixAyash.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.02</fontSize>
+ 	 	 	 	 <alignment>left</alignment>
+ 	 	 	 	 <forceUppercase>1</forceUppercase>
+ 	 	 	 </text>
+
+ 	 	 	 <datetime name="md_releasedate, md_lastplayed">
+ 	 	 	 	 <size>0.128 0.026</size>
+ 	 	 	 	 <color>ffffff</color>
+ 	 	 	 	 <fontPath>./../contents/fonts/PhoenixAyash.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.02</fontSize>
+ 	 	 	 	 <alignment>left</alignment>
+ 	 	 	 	 <forceUppercase>1</forceUppercase>
+ 	 	 	 </datetime>
+
+ 	 	 	 <rating name="md_rating">
+ 	 	 	 	 <filledPath>./../contents/pers/star_filled.svg</filledPath>
+ 	 	 	 	 <unfilledPath>./../contents/pers/star_empty.svg</unfilledPath>
+ 	 	 	 </rating>
+
+ 	 	 	 <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publiser, md_lbl_genre, md_lbl_players, md_lbl_playcount">
+ 	 	 	 	 <size>0.093 0.026</size>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_name">
+ 	 	 	 	 <size>0.136 0.026</size>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_rating">
+ 	 	 	 	 <pos>-3.062 0.706</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_releasedate">
+ 	 	 	 	 <pos>-3.062 0.736</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_developer">
+ 	 	 	 	 <pos>-3.062 0.766</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_publisher">
+ 	 	 	 	 <pos>-3.062 5.796</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_genre">
+ 	 	 	 	 <pos>0.299 5.706</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_players">
+ 	 	 	 	 <pos>0.299 5.736</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_lastplayed">
+ 	 	 	 	 <pos>0.299 5.766</pos>
+ 	 	 	 	 <size>0.11 0.026</size>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_lbl_playcount">
+ 	 	 	 	 <pos>0.299 5.796</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_developer">
+ 	 	 	 	 <pos>0.153 -5.766</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_publisher">
+ 	 	 	 	 <pos>0.153 -5.796</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_genre">
+ 	 	 	 	 <pos>3.405 0.706</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_players">
+ 	 	 	 	 <pos>3.405 0.736</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_playcount">
+ 	 	 	 	 <pos>3.405 0.796</pos>
+ 	 	 	 </text>
+
+ 	 	 	 <text name="md_description">
+ 	 	 	 	 <pos>0.074 0.807</pos>
+ 	 	 	 	 <size>0.393 0.093</size>
+ 	 	 	 	 <color>ffffff</color>
+ 	 	 	 	 <fontPath>./../contents/fonts/PhoenixAyash.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.02</fontSize>
+ 	 	 	 	 <alignment>center</alignment>
+ 	 	 	 	 <forceUppercase>1</forceUppercase>
+ 	 	 	 </text>
+
+ 	 	 	 <datetime name="md_releasedate">
+ 	 	 	 	 <pos>0.153 -5.736</pos>
+ 	 	 	 </datetime>
+
+ 	 	 	 <datetime name="md_lastplayed">
+ 	 	 	 	 <pos>5.405 0.766</pos>
+ 	 	 	 </datetime>
+
+ 	 	 	 <rating name="md_rating">
+ 	 	 	 	 <pos>-3.153 0.706</pos>
+ 	 	 	 	 <size>0 0.03</size>
+ 	 	 	 </rating>
+
+ 	 	 	 <textlist name="gamelist">
+ 	 	 	 	 <pos>0.646 0.256</pos>
+ 	 	 	 	 <size>0.312 0.594</size>
+ 	 	 	 	 <selectorColor>343434</selectorColor>
+ 	 	 	 	 <selectorHeight>0.033</selectorHeight>
+ 	 	 	 	 <selectedColor>ffffff</selectedColor>
+ 	 	 	 	 <primaryColor>ffffff</primaryColor>
+ 	 	 	 	 <secondaryColor>ffffff</secondaryColor>
+ 	 	 	 	 <fontPath>./../contents/fonts/Monapella.ttf</fontPath>
+ 	 	 	 	 <fontSize>0.03</fontSize>
+ 	 	 	 	 <scrollSound>./../contents/audios/scroll.wav</scrollSound>
+ 	 	 	 	 <alignment>right</alignment>
+ 	 	 	 	 <forceUppercase>1</forceUppercase>
+ 	 	 	 </textlist>
+
+ 	 	 	 <image name="md_image">
+ 	 	 	 	 <pos>0.267 0.484</pos>
+ 	 	 	 	 <maxSize>0.396 0.484</maxSize>
+ 	 	 	 </image>
+
+ 	 	 </view>
+
+
+
+ </theme>
